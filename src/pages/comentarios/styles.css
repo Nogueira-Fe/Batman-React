@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: aliceblue;
+    margin-top: 45px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+h2 {
+    color: aliceblue;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+}
+
+.cards-comments {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contents {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.comment {
+    color: aliceblue;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.comment1 {
+    color: aliceblue;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 20px 10px;
+    cursor: pointer;
+    margin-left: 44%;
+}
+
+.pics-1 {
+    background-image: url('https://s3.amazonaws.com/comicgeeks/characters/avatars/14120.jpg?t=1661116173');
+}
+
+.pics-2 {
+    background-image: url('https://qph.cf2.quoracdn.net/main-qimg-1b8d58cf300feb80b2fa8d5f36db5497-lq');
+}
+
+.pics-3 {
+    background-image: url('https://www.intoxianime.com/wp-content/uploads/2023/11/gon-freecss.jpeg');
+}
+
+.pics-4 {
+    background-image: url('https://w.forfun.com/fetch/ed/edda68bdf49482517333503af904aaae.jpeg');
+}
+
+.pics-5 {
+    background-image: url('https://topcinema.com.br/wp-content/uploads/2023/12/cats-40.jpg');
+}
+
+.pics-6 {
+    background-image: url('https://i.pinimg.com/originals/3f/b9/76/3fb976d3ce6f8a993f01da944c71cf41.jpg');
+}
+
+@media(max-width: 768px){
+    .icon {
+        margin-left: 25%;
+    }
+
+    .comment {
+        color: aliceblue;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        font-size: 20px;
+        margin-left: 9%;
+    }
+}

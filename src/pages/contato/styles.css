@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+.span {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+}
+
+label {
+    margin-left: 15.4%;
+}
+
+.inputstyle {
+    background-color: transparent;
+    border-color: #d21617;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 40%;
+}
+
+.formularios {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 37.6%;
+    margin-top: 50px;
+}
+
+.button1 {
+    width: 200px;
+    height: 60px;
+    background-color: #d21617;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    margin-left: 11.5%;
+}
+
+.button1:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.emailp {
+    margin-left: 26px;
+}
+
+.namep {
+    margin-left: 24px;
+}
+
+@media(max-width: 768px){
+    .span {
+        width: 95%;
+        margin-left: 3%;
+    }
+
+    .span br {
+        display: none;
+    }
+
+    .formularios {
+        width: 99%;
+        margin-left: 4.9px;
+    }
+
+    .inputstyle {
+        width: 95%;
+    }
+
+    label {
+        margin-left: 39%;
+    }
+
+    .button1 {
+        width: 430px;
+        margin-left: 2px;
+    }
+}

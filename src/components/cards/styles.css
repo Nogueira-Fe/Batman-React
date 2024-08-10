@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #000;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #ff0000a3;
+    font-size: 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url('https://br.web.img3.acsta.net/pictures/19/03/20/16/05/1007568.jpg');
+}
+
+.banner-2 {
+    background-image: url('https://br.web.img2.acsta.net/pictures/20/10/07/20/38/1264964.jpg')
+}
+
+.banner-3 {
+    background-image: url('https://br.web.img3.acsta.net/pictures/15/09/28/16/44/567950.jpg');
+}
+
+@media(max-width: 768px){
+    .cards-content {
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+}

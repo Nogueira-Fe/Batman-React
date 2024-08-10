@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+h1 {
+    color: aliceblue;
+    margin-top: 45px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.actor-card-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.cards {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    font-size: 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.cards:hover {
+    transform: scale(1.02);
+}
+
+.banner1 {
+    background-image: url('https://cdn.ome.lt/YKGJ8ZLQryvKCc0665hYV9nCzMA=/1200x630/smart/extras/conteudos/the-batman-robert-pattinson-regra-nao-matar.jpeg');
+}
+
+.banner2 {
+    background-image: url('https://noticiasdatv.uol.com.br/media/_versions/artigos_2021/batman-robert-pattinson-capuz-foto-divulgacao-warner-bros_fixed_large.jpg');
+}
+
+.banner3 {
+    background-image: url('https://veja.abril.com.br/wp-content/uploads/2022/03/ABRE-rev-1-TBM-56056JOrv4_High_Res_JPEG.jpeg.jpg?quality=90&strip=info&w=720&h=440&crop=1');
+}
+
+.banner4 {
+    background-image: url('https://img.odcdn.com.br/wp-content/uploads/2022/02/Charada-em-The-Batman.jpg');
+}
+
+.banner5 {
+    background-image: url('https://ogimg.infoglobo.com.br/in/25422676-086-2d9/FT1086A/batman_ver22_xlg.jpg');
+}
+
+.banner6 {
+    background-image: url('https://www.hollywoodreporter.com/wp-content/uploads/2022/03/Paul-Dano-as-The-Riddler-in-THE-BATMAN-Everett-H-2022.jpg?w=1024');
+}
+
+@media(max-width: 768px){
+    .card-content {
+        grid-template-columns: 1fr;
+        margin-top: 80px;
+    }
+}
